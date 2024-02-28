@@ -1,8 +1,25 @@
-# React + Vite
+# Compatibility Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Compatibility Calculator is a web application that allows users to calculate the compatibility between two people based on their names. It utilizes the Love Calculator API provided by Ajith via RapidAPI to fetch compatibility results.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Calculate compatibility between two people based on their names.
+- Compatibility percentage.
+- Result message.
+
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- Axios
+
+## Usage
+
+1. Enter the names of two people in the input fields.
+2. Click on the "Calculate Compatibility" button.
+3. View the compatibility result displayed below the input fields.
+
+## Credits
+
+API provided by [Ajith](https://rapidapi.com/user/ajith) via [RapidAPI](https://rapidapi.com/).
